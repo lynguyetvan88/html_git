@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 17, 2015, 2:36:59 PM
+    Author     : LYANH77
+*/
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+@keyframes fadeIn_cloud { 
+    0%   { left: 0px; }
+    5%   { left: 10px; }
+    10%   { left: 20px; }
+    15%   { left: 30px; }
+    20%   { left: 40px; }
+    25%  { left: 50px; }
+    30%  { left: 60px; }
+    50%  { left: 200px; }
+    75%  { left: 0px; }
+    100% { left: 0px; opacity: 0;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   { left: 0px; }
+    25%  { left: 50px; }
+    50%  { left: 100px;}
+    75%  { left: 150px; }
+    100% { left: 0px; opacity: 0;}
+}
+
+@keyframes myfirst {
+    0%   { left: 0px; }
+    25%  { left: 200px; }
+    50%  { left: 200px; }
+    75%  { left: 0px; }
+    100% { left: 0px; opacity: 0;}
+}
+body{overflow-x: hidden; margin: 0 auto}
+.wap_airport{width: 1184px; height: 380px; margin: 0 auto; background: #fff url(img/new/bg.png); position: relative}
+
+.delay_0 { animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s;}
+.delay_1 {animation-delay:1.2s; -moz-animation-delay:1.2s; -webkit-animation-delay:1.2s;}
+.delay_2 {animation-delay:2.2s; -moz-animation-delay:2.2s; -webkit-animation-delay:2.2s;}
+.delay_3 {animation-delay:3.2s; -moz-animation-delay:3.2s; -webkit-animation-delay:3.2s;}
+.delay_4 {animation-delay:4.2s; -moz-animation-delay:4.2s; -webkit-animation-delay:4.2s;}
+.delay_5 {animation-delay:5.2s; -moz-animation-delay:5.2s; -webkit-animation-delay:5.2s;}
+.delay_6 {animation-delay:6.2s; -moz-animation-delay:6.2s; -webkit-animation-delay:6.2s;}
+.delay_7 {animation-delay:7.2s; -moz-animation-delay:7.2s; -webkit-animation-delay:7.2s;}
+.delay_8 {animation-delay:8.2s; -moz-animation-delay:8.2s; -webkit-animation-delay:8.2s;}
+
+.wap_airport .cloud_1{
+    width: 414px; height: 152px; background: url(img/may_01.png) transparent;position: absolute; 
+    left:  0; animation: fadeIn 5s infinite alternate;
+    
+}
+.wap_airport .cloud_2{
+    width: 414px; height: 152px; background: url(img/may_01.png) transparent;position: absolute; 
+    left:  0;
+     -webkit-animation: myfirst 10s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 10s infinite;
+    animation-direction: alternate;
+    -webkit-transform:translate3d(0,0,0);
+			-moz-transform:translate3d(0,0,0);
+			-o-transform:translate3d(0,0,0)
+}
+.person {width: 323px; height: 317px; background: url(img/new/person_golfs.png); position: absolute; z-index: 1;
+bottom: 0; left: 20px
+}
+.txt1 {width: 513px; height: 32px; background: url(img/new/img_1_03.png); position: absolute; z-index: 2;
+bottom: 74px; left: 201px}
+.txt2 {width: 100%; height: 35px; background: #000; position: absolute; z-index: 2; background: url(img/new/trans_07.png);
+bottom: 35px; text-align: center;}
+.txt2 img {margin-left: 170px}
+.txt3 {width: 513px; height: 32px; background: url(img/new/img_5_03.png); position: absolute; z-index: 2;
+bottom: 3px; left: 201px}
+.txt4 {width: 459px; height: 64px; background: url(img/new/img_2_03.png); position: absolute; z-index: 2;
+bottom: 70px; right:  2px}
+.txt5 {width: 310px; height: 165px; background: url(img/new/img_7_03.png); position: absolute; z-index: 2;
+bottom: 147px; right:  2px}
+.txt6 {width: 413px; height: 205px; background: url(img/new/img_6_03.png); position: absolute; z-index: 3;
+bottom: 97px; right:  283px}

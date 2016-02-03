@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2015, 5:17:46 PM
+    Author     : LYANH77
+*/
+body {font-family: arial}
+header#header{background: url(../images/index_01.png) left top no-repeat ,url(../images/bg_05_1.png) right;}
+header#header .bg_head_1 {background: url(../images/bg_05.png) no-repeat right center; height: 76px; padding-right: 70px}
+
+header#header .bg_head_2 {background: url(../images/bg_05_1.png) repeat-x right center; height: 76px;padding-top: 8px}
+header#header .bg_head_2 .phone {color: #fff; font-size: 1.2em }
+header#header .bg_head_2 .flag { padding:  0px 3px 2px 3px; background: #fff}
+nav#nav{background: #7b0104 url(../images/nav_05.png) repeat-x  top; min-height: 34px}
+nav#nav ul, ol{ margin-bottom: 0}
+section#menu_search {margin-top: 10px}
+section#menu_search ul li a {text-transform: uppercase; color: #380002}
+section#menu_search .list-inline > li {padding-left: 10px;   padding-right: 10px;}
+section#menu_search  #sb_search {background: #424a4d; color: #fff; border: 0; padding: 3px 10px;}
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+   
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+section#content {margin-top: 10px; background: #eee; color: #000}
+section#content .content_right .thumbnail {margin: 0 auto; margin-bottom: 10px; max-width: 100%}
+section#content .content_right  h2 {border-bottom: 1px solid #ccc; color: #ac0001; font-size: 1.2em;
+text-transform: uppercase; padding-bottom: 3px
+}
+section#content .content_left  h2 {border-bottom: 1px solid #ccc; color: #ac0001; font-size: 1.2em;
+text-transform: uppercase; padding-bottom: 3px;
+}
+section#content .content_left  .thumbnail{margin-right: 10px; margin-bottom: 3px}
+section#content .content_left .row{margin: 0}
+section#content .content_left .home_news h2{color: #505050}
+section#content .content_left .home_news h4 {color: #ac0001; margin-top: 0; margin-bottom: 2px}
+section#content .content_left .list_home_other_new li {border-bottom: 1px dotted #ccc; margin: 0; list-style: none; padding-bottom: 5px}
+section#content .content_left .list_home_other_new {margin: 0; padding: 0}
+section#content .content_left .list_home_other_new li  a {color: #424a4d}
+section#content .content_left .list_home_other_new li:last-child{border: none}
+footer#footer {background: #9f0005; min-height: 84px; color: #fff}
+footer#footer .logo {margin-top: 20px}
+footer#footer h3{font-size: 1.6em}
+section#content .content_left .new_other a {color: #505050}
+section#content  .home_news img {max-width: 100%; height: 138px}
+section#content .content_left .parnert .thumbnail {margin-bottom: 10px}
+section#content .content_left .parnert p {min-height: 41px}
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+section#content    .news .content_left .thumbnail { margin-bottom: 10px}
+section#content    .news .content_left  a {color: #535353; }
+section#content    .news .content_left  h3{font-size: 1.5em}
+header#header_mobile {display: none }
+.phone_mb {display: none}
+@media screen and (max-width: 768px ) { 
+    header#header {display: none }
+    header#header_mobile {display: block }
+ .phone_mb {display: inline-block; color: #fff}
+}
+.pgl-property {
+  margin-bottom: 30px; background: #fff
+}
+/* line 457, ../sass/theme-elements.scss */
+.pgl-property:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* line 461, ../sass/theme-elements.scss */
+.property-thumb-info, .property-thumb-info-image, .pgl-team-item .img-thumbnail-medium {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 465, ../sass/theme-elements.scss */
+.property-thumb-info-image img, .pgl-team-item .img-thumbnail-medium img {
+  width: -webkit-calc(100% + 50px);
+  width: calc(100% + 50px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0) scale(1.1);
+  transform: translate3d(-10px, 0, 0) scale(1.1);
+  height: 256px;
+}
+
+/* line 473, ../sass/theme-elements.scss */
+.pgl-property:hover .property-thumb-info-image img, .pgl-team-item:hover .img-thumbnail-medium img {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -webkit-transform: translate3d(0, 0, 0) scale(1.1);
+  transform: translate3d(0, 0, 0) scale(1.1);
+}
+
+/* line 478, ../sass/theme-elements.scss */
+.property-thumb-info-image .property-thumb-info-label {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+/* line 483, ../sass/theme-elements.scss */
+.property-thumb-info-content {
+  padding: 0px 20px 20px;
+}
+/* line 485, ../sass/theme-elements.scss */
+.property-thumb-info-content h3 {
+  margin-bottom: 8px;
+}
+/* line 488, ../sass/theme-elements.scss */
+.property-thumb-info-content address {
+  margin-bottom: 10px;
+}
+/* line 491, ../sass/theme-elements.scss */
+.property-thumb-info-content p {
+  margin: 0;
+}
+.property-thumb-info-content h3 { font-size: 1.285em;}
+.property-thumb-info-content a
+{-webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;}

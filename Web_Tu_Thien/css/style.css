@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2015, 5:17:46 PM
+    Author     : LYANH77
+*/
+body{color: #000}
+header#header{background: url(../images/bg_banner_01.png) left top; height: 156px;  background-size: cover }
+
+nav#nav{background: #7b0104 url(../images/nav_05.png) repeat-x  top; min-height: 34px; position: relative}
+nav#nav ul, ol{ margin-bottom: 0}
+section#menu_search {margin-top: 10px}
+section#menu_search ul li a {text-transform: uppercase; color: #380002}
+section#menu_search .list-inline > li {padding-left: 10px;   padding-right: 10px;}
+section#menu_search  #sb_search {background: #424a4d; color: #fff; border: 0; padding: 3px 10px;}
+#key_search {height: 27px; border: 0px; margin-left: 10px;margin-top: 6px;}
+#btn_search {height: 27px; margin-top: 6px; position: relative; right: 5px; cursor: pointer; border: 0px; float: right}
+header#welcome {background: url(../images/hear_marr_02.png) left top; height: 72px; line-height: 70px; color: #fff; font-size: 1.5em; background-size: cover }
+.title {background:   url(../images/bg_titile_03.png) left no-repeat, url(../images/bg_title_2_03.png) repeat-x ; height: 37px;
+        padding-left: 50px; text-align: left; line-height: 40px; font-size: 14px; font-weight: bold; text-transform: uppercase;
+        color: #fff; position: relative; z-index: 1;
+} 
+.title a {text-transform: none; color: #fff; padding-right: 10px}
+#logo {position: absolute; z-index: 1; top:-121px; height: 230px;}
+
+/*full width container*/
+
+section#content {margin-top: 10px}
+section#content .content_left {
+    padding: 0; padding-right: 15px;
+
+}
+section#content .content_left .page_main {margin-bottom: 20px}
+section#content .content_left .content_page{
+    border-left: 1px solid #ccc;
+    border-right:  1px solid #ccc;
+    border-bottom:  1px solid #ccc; padding: 10px 0px 10px 0px;
+
+}
+section#content .content_left .content_page .title_page{
+    color: #cc0000; font-size: 16px; margin: 0; font-weight: bold;
+    
+}
+section#content .content_left .content_page  .img_page{
+    width: 238px; height: 160px; margin-right: 10px; 
+}
+section#content .content_left .content_page .date_page {
+    margin-top:-10px;
+}
+section#content .content_left .content_page .date_page span:first-child {color: #999}
+section#content .content_left .content_page .discription{text-align: justify; font-size: 14px}
+section#content .content_left .content_page .title_page:hover{color: #0000ff}
+
+section#content .content_left .content_page  .conten_list_page_1{border-bottom: 1px solid #ccc}
+section#content .content_left .content_page  .conten_list_page_1:last-child{border-bottom: none}
+section#content .content_left .content_page  .conten_list_page_1 .img_page{
+    width: 100px; height: 80px; margin-right: 10px; 
+}
+section#content .content_left .content_page .conten_list_page_1 .title_page{
+    color: #000; font-size: 14px; margin: 0; 
+    
+}
+section#content .content_left .content_page .conten_list_page_1 .date_page {
+    margin-top:0px; padding-bottom: 15px
+}
+section#content .content_left .content_page .conten_list_page_1 .date_page span:first-child {color: #999}
+section#content .content_left .content_page .conten_list_page_1 .discription{text-align: justify; font-size: 14px}
+section#content .content_left .content_page .conten_list_page_1 .title_page:hover{color: #0000ff}
+section#content .content_right {
+    float: right; padding: 0;
+}
+footer#footer .foo_1 {
+    height: 12px; background: url(../images/bg_foo_1_02.png);
+}
+footer#footer .foo_2 {
+     background: url(../images/bg_foo_2_03.png); color:#fff;
+}
+footer#footer .foo_2 a {color: #fff}
+footer#footer .foo_2 .list-inline li{padding-right: 40px}
+footer#footer .foo_2 .list-inline li:last-child{padding-right: 0}
+footer#footer .foo_3 {
+    min-height: 69px; background: #1e1d1d url(../images/bg_foo_3_03.png) repeat-x; color: #fff; padding-top: 20px;
+    text-align: center;
+}

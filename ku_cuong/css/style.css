@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2015, 5:17:46 PM
+    Author     : LYANH77
+*/
+
+header#header{background: url(../images/index_01.png) left top no-repeat ,url(../images/bg_05_1.png) right;}
+header#header .bg_head_1 {background: url(../images/bg_05.png) no-repeat right center; height: 76px; padding-right: 70px}
+
+header#header .bg_head_2 {background: url(../images/bg_05_1.png) repeat-x right center; height: 76px;padding-top: 8px}
+header#header .bg_head_2 .phone {color: #fff; font-size: 1.2em }
+header#header .bg_head_2 .flag { padding:  0px 3px 2px 3px; background: #fff}
+nav#nav{background: #7b0104 url(../images/nav_05.png) repeat-x  top; min-height: 34px}
+nav#nav ul, ol{ margin-bottom: 0}
+section#menu_search {margin-top: 10px}
+section#menu_search ul li a {text-transform: uppercase; color: #380002}
+section#menu_search .list-inline > li {padding-left: 10px;   padding-right: 10px;}
+section#menu_search  #sb_search {background: #424a4d; color: #fff; border: 0; padding: 3px 10px;}
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+   
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+section#content {margin-top: 10px}
+section#content .content_right .thumbnail {margin: 0 auto; margin-bottom: 10px; max-width: 100%}
+section#content .content_right  h2 {border-bottom: 1px solid #ccc; color: #ac0001; font-size: 1.2em;
+text-transform: uppercase; padding-bottom: 3px
+}
+section#content .content_left  h2 {border-bottom: 1px solid #ccc; color: #ac0001; font-size: 1.2em;
+text-transform: uppercase; padding-bottom: 3px;
+}
+section#content .content_left  .thumbnail{margin-right: 10px; margin-bottom: 3px}
+section#content .content_left .row{margin: 0}
+section#content .content_left .home_news h2{color: #505050}
+section#content .content_left .home_news h4 {color: #ac0001; margin-top: 0; margin-bottom: 2px}
+section#content .content_left .list_home_other_new li {border-bottom: 1px dotted #ccc; margin: 0; list-style: none; padding-bottom: 5px}
+section#content .content_left .list_home_other_new {margin: 0; padding: 0}
+section#content .content_left .list_home_other_new li  a {color: #424a4d}
+section#content .content_left .list_home_other_new li:last-child{border: none}
+footer#footer {background: #9f0005; min-height: 84px; color: #fff}
+footer#footer .logo {margin-top: 20px}
+footer#footer h3{font-size: 1.6em}
+section#content .content_left .new_other a {color: #505050}
+section#content .content_left  img {max-width: 100%}
+section#content .content_left .parnert .thumbnail {margin-bottom: 10px}
+section#content .content_left .parnert p {min-height: 41px}
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+section#content    .news .content_left .thumbnail { margin-bottom: 10px}
+section#content    .news .content_left  a {color: #535353; }
+section#content    .news .content_left  h3{font-size: 1.5em}
+header#header_mobile {display: none }
+.phone_mb {display: none}
+@media screen and (max-width: 768px ) { 
+    header#header {display: none }
+    header#header_mobile {display: block }
+ .phone_mb {display: inline-block; color: #fff}
+}

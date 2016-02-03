@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* slider layout */
+.lof-slidecontent .preload{left:auto;	right:0;}
+.lof-slidecontent  ul.sliders-wrap-inner li{float:right;}
+.lof-slidecontent  .lof-opacity  li{left:auto;	right:0; }
+.lof-slidecontent  .navigator-content {left:0; right:auto;}
+.lof-slidecontent  .navigator-wrapper{	float:right}
+.lof-slidecontent  ul.navigator-wrap-inner li{ 	margin-right:0px;		float:right;	}
+
+/*******************************************************/
+ 
+
+
+.lof-slidecontent .slider-description a.readmore{color:#58B1EA; font-size:95%; }
+.lof-slidecontent .slider-description a{ color:#FFF; }
+.lof-slidecontent .slider-description{	left:auto;	right:0;}
+
+/* item navigator */
+.lof-slidecontent ul.navigator-wrap-inner  li.active{
+	background:url(../images/arrow-bg.png) no-repeat scroll right center; 
+	
+}
+.lof-slidecontent ul.navigator-wrap-inner  li >  div{
+	margin-left:0;margin-right:15px;
+	padding-left:0;padding-right:15px;
+	text-align:right;
+}
+
+.lof-slidecontent ul.navigator-wrap-inner li img{
+	margin:15px 0 10px 15px;
+	float:right;
+	
+}
+
+.lof-slidecontent   .button-next {
+	right:auto; left:0;
+	background:url(../images/previous.png) no-repeat left center;
+}
+.lof-slidecontent  .button-previous {
+	left:auto; right:0;
+	background:url(../images/next.png) no-repeat right center;
+}
+
+.lof-slidecontent .button-control {  right:0; left:48%;}

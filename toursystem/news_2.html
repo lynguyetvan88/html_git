@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <head>
+        <title>news 2</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">     
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="menu/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="menu/css/style.css" rel="stylesheet" type="text/css" />
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <link href="lib/owl.carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/owl.carousel/owl.theme.css" rel="stylesheet" type="text/css"/>
+        <script src="lib/owl.carousel/owl.carousel.js" type="text/javascript"></script>
+        <link href="css/hover.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/animation/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/clound/cloud.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+        <link href="menu/mobile/css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js" type="text/javascript"></script>
+        <link href="css/news.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body ng-app="main">
+        <header id="hd_mobile" class="hd_mobile">
+            <a href="#0" id="cd-logo"><img style="height: 45px" alt="Homepage" src="http://www.toursystem.biz/uploads/site/1376900342logo-dong.gif" class="img-responsive" ></a> 
+            <a id="cd-menu-trigger" rel="0" href="javascript:void(0)"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
+        </header>
+
+        <nav id="cd-lateral-nav">
+            <ul class="cd-navigation">
+                <!--tour -->
+                <li class="item-has-children">
+
+                    <a href="#0">ツアー</a>
+                    <ul class="sub-menu">
+                        <!-- viet nam -->
+                        <li class="item-has-children"><a href="#0">ベトナム</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ホーチミン</a></li>
+                                <li><a href="#0">ハノイ</a></li>
+                                <li><a href="#0">ニャチャン</a></li>
+                                <li><a href="#0">フエ</a></li>
+                                <li><a href="#0">ダナン</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- cam -->
+                        <li class="item-has-children"><a href="#0">カンボジア</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">プノンペン</a></li>
+                                <li><a href="#0">シェムリアップ</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- laos -->
+                        <li class="item-has-children"><a href="#0">ラオス</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ルアンパバーン</a></li>
+                                <li><a href="#0">パクセー</a></li>
+                                <li><a href="#0">ビエンチャン</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- myanmar -->
+                        <li class="item-has-children"><a href="#0">ミャンマー</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ヤンゴン</a></li>
+
+                            </ul>
+                        </li>                    
+                    </ul>
+                </li> <!-- item-has-children -->
+
+                <!--hotel -->
+                <li class="item-has-children">
+
+                    <a href="#0">ホテル</a>
+                    <ul class="sub-menu">
+                        <!-- viet nam -->
+                        <li class="item-has-children"><a href="#0">ベトナム</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ニャチャン</a></li>
+                                <li><a href="#0">フエ</a></li>
+                                <li><a href="#0">ホイアン</a></li>
+                                <li><a href="#0">ハノイ</a></li>
+                                <li><a href="#0">ダナン</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- cam -->
+                        <li class="item-has-children"><a href="#0">カンボジア</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">プノンペン</a></li>
+                                <li><a href="#0">シェムリアップ</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- laos -->
+                        <li class="item-has-children"><a href="#0">ラオス</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ルアンパバーン</a></li>
+                                <li><a href="#0">パクセー</a></li>
+                                <li><a href="#0">ビエンチャン</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- myanmar -->
+                        <li class="item-has-children"><a href="#0">ミャンマー</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ヤンゴン</a></li>
+                                <li><a href="#0">ヤンゴン</a></li>
+                            </ul>
+                        </li>                    
+                    </ul>
+                </li>
+
+                <!--golf -->
+                <li class="item-has-children">
+
+                    <a href="#0">ゴルフ</a>
+                    <ul class="sub-menu">
+                        <!-- viet nam -->
+                        <li class="item-has-children"><a href="#0">ベトナム</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ニャチャン</a></li>
+                                <li><a href="#0">フエ</a></li>
+                                <li><a href="#0">ホイアン</a></li>
+                                <li><a href="#0">ハノイ</a></li>
+                                <li><a href="#0">ダナン</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- cam -->
+                        <li class="item-has-children"><a href="#0">カンボジア</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">プノンペン</a></li>
+                                <li><a href="#0">シェムリアップ</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- laos -->
+                        <li class="item-has-children"><a href="#0">ラオス</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ルアンパバーン</a></li>
+                                <li><a href="#0">パクセー</a></li>
+                                <li><a href="#0">ビエンチャン</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- myanmar -->
+                        <li class="item-has-children"><a href="#0">ミャンマー</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">ヤンゴン</a></li>
+                                <li><a href="#0">ヤンゴン</a></li>
+                            </ul>
+                        </li>                    
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#0"> ラウンジ  </a>
+                </li>
+                <li>
+                    <a href="#0"> K6ホリデイズ  </a>
+                </li>
+                <li>
+                    <a href="#0"> 無料空港バス  </a>
+                </li>
+                <li><a href="javascript:void(0)">  社員募集   </a></li>
+
+                <li class="item-has-children">
+                    <a  href="javascript:void(0)">会社概要</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a  href="http://www.toursystem.biz/enquete">アンケート入力</a>
+                        </li>
+                        <li>
+                            <a  href="http://www.toursystem.biz/poll">アンケートグラフ</a>
+                        </li>
+                        <li>
+                            <a  href="http://www.toursystem.biz/calendar">インドシナカレンダー </a>
+                        </li>
+                        <li>
+                            <a  href="http://www.toursystem.biz/news">ニュース</a>
+                        </li>
+                        <li>
+                            <a  href="http://www.toursystem.biz/videos/edit/99">事務所紹介ビデオ</a>
+                        </li>
+                        <li>
+                            <a  href="http://www.toursystem.biz/about_company">事務所パノラマ写真</a>
+                        </li>
+                        <li>
+                            <a  href="http://www.toursystem.biz/intro">会社概要</a>
+                        </li>
+                    </ul>                   
+                </li>
+                <li><a href="javascript:void(0)"> Partners  </a></li>
+            </ul> <!-- cd-navigation -->
+
+
+
+        </nav>
+        <div class="clearfix"></div>
+        <header id="header">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-md-9 txt_info">
+                        <a href="#" title="" class="hide">会員登録 |</a>  <a href="#" class="hide" title=""> 旅行会社登録 | </a>  <a href="#" title=""> 連絡・問合せ </a> | <a href="#popup" class="popup-link"title=""> 日本語ダイレクト </a> Tell:+848-3547-2746 | <a href="#" title=""> Email:support@toursystem.biz </a>
+                    </div>
+                    <div class="col-md-3 pull-right txt_login text-right">
+                        <a href="#" title=""><span class="glyphicon glyphicon-user"></span>  ログイン / 登 録 </a> &nbsp;
+                        <a href="#" title=""><img src="images/en.jpg" class="img-rounded" alt="" /> </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav id="nav" class="menu_des">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-sm-2 col-md-2 logo">
+                        <div class="row">
+                            <a href="#" title=""><img class="img-responsive" src="http://www.toursystem.biz/uploads/site/1376900342logo-dong.gif" alt="" /> </a>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-10 col-md-10 list_mn">
+                        <div id="main-menu" class="main-menu">
+
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                            <i class="fa fa-bars"></i>
+                                        </button>
+                                        <a class="navbar-brand" href="#">MENU</a>
+                                    </div>
+                                    <div id="navbar" class="navbar-collapse collapse">
+                                        <ul class="nav navbar-nav">
+
+                                            <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">ツアー</a>
+                                                <ul role="menu" class="dropdown-menu mega_dropdown">
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/tour_vn.jpg" alt="" class="img-responsive" />
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ベトナム</a>
+                                                            </li>
+
+
+                                                            <li class="link_container">
+
+                                                                <a href="http://www.toursystem.biz/vietnam/place/162/">
+
+                                                                    ホーチミン
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="http://www.toursystem.biz/vietnam/place/61/">
+
+                                                                    ハノイ
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="http://www.toursystem.biz/vietnam/place/116/">
+
+                                                                    ニャチャン
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="http://www.toursystem.biz/vietnam/place/72/">
+
+                                                                    フエ
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="http://www.toursystem.biz/vietnam/place/39/">
+
+                                                                    ダナン
+
+                                                                </a>
+                                                            </li>
+
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+
+                                                                    <img src="images/tour_cam.jpg" alt="" class="img-responsive" />
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">カンボジア</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">プノンペン</a></li>
+                                                            <li class="link_container"><a href="#">シェムリアップ</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/tour_laos.jpg" class="img-responsive" alt="" />
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ラオス</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">ルアンパバーン</a></li>
+                                                            <li class="link_container"><a href="#">パクセー</a></li>
+                                                            <li class="link_container"><a href="#">ビエンチャン</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/tour_myanmar.jpg" alt="" class="img-responsive" />
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ミャンマー</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">ヤンゴン</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ホテル</a>
+                                                <ul role="menu" class="dropdown-menu mega_dropdown">
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/hotel_vn.jpg" alt="" class="img-responsive" />
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ベトナム</a>
+                                                            </li>
+
+
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ニャチャン
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    フエ
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ホイアン
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ハノイ
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ダナン
+                                                                </a>
+                                                            </li>
+
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+
+                                                                    <img src="images/hotel_cam.jpg" alt="" class="img-responsive" />
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">カンボジア</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">プノンペン</a></li>
+                                                            <li class="link_container"><a href="#">シェムリアップ</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/hotel_laos.jpg" class="img-responsive" alt="" />
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ラオス</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">ルアンパバーン</a></li>
+                                                            <li class="link_container"><a href="#">パクセー</a></li>
+                                                            <li class="link_container"><a href="#">ビエンチャン</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/hotel_myan.jpg" alt="" class="img-responsive" />
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ミャンマー</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">ヤンゴン</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">ゴルフ</a>
+                                                <ul role="menu" class="dropdown-menu mega_dropdown">
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/golf_vn.jpg" alt="" class="img-responsive" />
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ベトナム</a>
+                                                            </li>
+
+
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ニャチャン
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    フエ
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ホイアン
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ハノイ
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container">
+                                                                <a href="#">
+                                                                    ダナン
+                                                                </a>
+                                                            </li>
+
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+
+                                                                    <img src="images/golf_cam.jpg" alt="" class="img-responsive" />
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">カンボジア</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">プノンペン</a></li>
+                                                            <li class="link_container"><a href="#">シェムリアップ</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/golf_laos.jpg" class="img-responsive" alt="" />
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ラオス</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">ルアンパバーン</a></li>
+                                                            <li class="link_container"><a href="#">パクセー</a></li>
+                                                            <li class="link_container"><a href="#">ビエンチャン</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="block-container col-sm-3">
+                                                        <ul class="block">
+                                                            <li class="img_container">
+                                                                <a href="#">
+                                                                    <img src="images/golf_myan.jpg" alt="" class="img-responsive" />
+
+                                                                </a>
+                                                            </li>
+                                                            <li class="link_container group_header">
+                                                                <a href="#">ミャンマー</a>
+                                                            </li>
+                                                            <li class="link_container"><a href="#">ヤンゴン</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown hide" ><a href="javascript:void(0)"> 取引先 </a>
+                                                <ul class="dropdown-menu container-fluid">
+                                                    <li class="block-container">
+                                                        <ul class="block">
+                                                            <li>
+                                                                <a href="http://quotation.toursystem.biz" class="">
+                                                                    見積
+
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="http://www.toursystem.biz/arrangement" class="">
+                                                                    手配
+
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="http://www.toursystem.biz/freetime_tour" class="">
+                                                                    スケルトン
+
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="javascript:void(0)"> ラウンジ  </a></li>
+
+                                            <li><a href="#">K6ホリデイズ</a></li>
+                                            <li><a href="javascript:void(0)"> 無料空港バス     </a></li>
+                                            <li><a href="javascript:void(0)">  社員募集   </a></li>
+
+                                            <li class="dropdown">
+                                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">会社概要</a>
+                                                <ul class="dropdown-menu container-fluid">
+                                                    <li class="block-container">
+                                                        <ul class="block">
+                                                            <li class="">
+                                                                <a href="http://www.toursystem.biz/enquete" class="link_container">アンケート入力</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="http://www.toursystem.biz/poll" class="link_container">アンケートグラフ</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="http://www.toursystem.biz/calendar" class="link_container">インドシナカレンダー </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="http://www.toursystem.biz/news" class="link_container">ニュース</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="http://www.toursystem.biz/videos/edit/99" class="link_container">事務所紹介ビデオ</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="http://www.toursystem.biz/about_company" class="link_container">事務所パノラマ写真</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="http://www.toursystem.biz/intro" class="link_container">会社概要</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+                                            <li><a href="javascript:void(0)"> Partners  </a></li>
+                                        </ul>
+                                    </div><!--/.nav-collapse -->
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section id="content_news">   
+            <div class="col-lg-12 col-md-12">
+                <ul id="menu_news">
+                    <li class="col-lg-3 col-md-3 active">
+                        <a href="#" title="" rel="1"> Viet Nam</a>
+                    </li>
+                    <li class="col-lg-3 col-md-3">
+                        <a href="#" title="" rel="2"> Cambodia</a>
+                    </li>
+                    <li class="col-lg-3 col-md-3" >
+                        <a href="#" title="" rel="3"> Laos</a>
+                    </li>
+                    <li class="col-lg-3 col-md-3">
+                        <a href="#" title="" rel="4"> Myanmar</a>
+                    </li>
+                </ul>
+
+                <div class="clearfix"></div>
+
+                 <div id="topic">
+                
+                    <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+     <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+     <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+     <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+     <div class="col-md-6 col-sm-6 col-xs-12 list_topic">
+                        <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">
+                            <img alt="Enjoy Ha Noi Pho like the gourmet" src="http://southernbreezetour.com/Upload/1445225412-IndoPhoHN1.jpg"/>
+                        </a>
+                        <div class="pos_news">
+                            <a href="http://southernbreezetour.com/trang/Enjoy-Ha-Noi-Pho-like-the-gourmet-118-29.html" title="Enjoy Ha Noi Pho like the gourmet">Enjoy Ha Noi Pho like the gourmet</a>
+                            <hr />
+                            <p>Ha Noi Pho is available everywhere in Ha Noi as the townspeople have the strong passion for this delectable soup. You can find Pho in the Viet Nam’s capital ...</p>
+                        </div>
+                        <div class="views_day">
+                            <div class="time___">
+                                <div class="time_date">
+                                    19 
+                                </div>
+                                <div class="year">
+                                    Oct                                </div>
+                            </div>
+                            <div class="view">
+                                <p><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></p>
+                                <p>51</p>
+                            </div>
+                        </div>
+                    </div>
+     
+               
+            
+
+ </div>
+                <div class="clearfix"></div>
+                <nav class="pull-right"> <ul class="pagination"> <li class="disabled"><a aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li> <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li> <li><a href="#">2</a></li> <li><a href="#">3</a></li> <li><a href="#">4</a></li> <li><a href="#">5</a></li> <li><a aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li> </ul> </nav>
+                
+            </div>
+
+
+
+
+        <div class="clearfix"></div> 
+
+    </section>
+
+
+
+
+
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-md-7 list_footer_link">
+                    <h2>
+                        サザンブリーズ  
+                    </h2>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#" title="">ベトナムツアー</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">カンボジアツアー</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">ラオスツアー</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">Pミャンマーツアー</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">特定商取引法に基づく表記</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">ニュース</a>  </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#" title="">WEBアンケート View</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">インドシナカレンダー</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">会社概要 - ダウンロード</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">ホテルファシリティ</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">システムガイドブック</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">弊社へのご意見</a>  </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#" title="">個人情報保護方針</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">事務所紹介ビデオ</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">ギャラリー</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">事務所パノラマ写真</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">社員のツアーリポート</a>  </li>
+                                <li class="list-group-item"><a href="#" title="">組織図</a>  </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-5 list_footer_address">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 share">
+                            <h2>
+                                フォロー
+                            </h2>
+                            <p>
+                                <a href="#" title="" >  <i class="fa fa-google-plus "></i> Google plus </a>
+                            </p>
+                            <p>
+                                <a href="#" title="">  <i class="fa fa-facebook "></i> Facebook </a>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p>
+                                <a href="#" title="">  <i class="fa fa-twitter "></i> Twitter </a>
+                            </p>
+                            <p>
+                                <a href="#" title="">  <i class="fa fa-tripadvisor"></i> Tripadvisor </a>
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-sm-7  address">
+                            <div class="clearfix"></div>
+                            <h2>
+                                ロケーション
+                            </h2>
+                            <div class="clearfix"></div>
+                            <div class="row">
+                                <div class="col-md-2 col-sm-1">
+                                    <i class="fa fa-home "></i> 
+                                </div>
+                                <div class="col-md-10 col-sm-11">
+                                    Saigon Airport Plaza, BlueSky Office, 6th Floor, No.1, Bach Dang St., Ward 2, Tan Binh Dist., HCMC
+                                </div>
+                                <div class="clearfix"></div>
+                                <br/>
+                                <div class="col-md-2 col-sm-1">
+                                    <i class="fa fa-phone "></i> 
+                                </div>
+
+
+                                <div class="col-md-10 col-sm-11">
+                                    Tel : +848-35470621  <br/>
+                                    Fax: +848-35470622 
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12">
+                    <img alt="" src="http://www.toursystem.biz/themes/client/styleMCH/home/images_toppages/pata.png" class="img_home">
+                </div>
+                <div class="col-md-12" ng-controller="copyright">
+                    <img  ng-src="images/{{img}}" alt="" class="logo_foo animated zoomIn"/>
+                    <span class="copyright">{{ title}}</span>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="back_top">
+            <a href="#" title="">
+                <i class="fa fa-arrow-circle-up fa-4x"></i> 
+            </a>  
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.js" type="text/javascript"></script>    
+
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="menu/mobile/js/main.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/news.js" type="text/javascript"></script>
+</body>
+
+</html>

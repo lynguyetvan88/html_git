@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2016, 3:02:06 PM
+    Author     : LYANH77
+*/
+
+section#content_news #menu_news{ height: 50px; margin: 0; padding: 0}
+section#content_news #menu_news li {display: block; text-align: center; float: left; list-style: none; line-height: 50px; background: #2b3b44  url(../images/news/bg_news.png) right no-repeat;
+
+}
+section#content_news #menu_news li.active{ background: #408dce  url(../images/news/bg_news_active.png) right no-repeat; }
+section#content_news #menu_news li.fist{ background:  #2b3b44 url(../images/news/bg_news_fs.png) right no-repeat; }
+section#content_news #menu_news li:last-child{background-image: none}
+section#content_news #menu_news li a { text-align: center; font-size: 1.7em; color: #fff; font-weight: bold; margin-top: -38px;}
+section#content_news .contry_news {margin-top: 10px; position: relative}
+section#content_news .contry_news img {width: 100%; height: 568px}
+section#content_news .contry_news .views_day {
+left: 1px;
+    margin: 10px;
+    position: absolute;
+    top: 1px;
+}
+section#content_news .contry_news .views_day .time___ {float: left; margin-left: 10px}
+section#content_news .contry_news .views_day .time_date {
+    border: 1px solid #838383; text-align: center;  background: #fff;  font-size: 26px;
+    padding: 5px; color: #009aa0; font-weight: bold;
+}
+
+section#content_news .contry_news .views_day .time_date {
+    background: #408dce none repeat scroll 0 0;
+    border: 1px solid #838383;
+    color: #fff;
+    
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+section#content_news .contry_news .views_day  .year {background: #fff; text-align: center; color: #408dce; 
+                                                               font-size: 1.5em;
+}
+section#content_news .contry_news .views_day .view {float: left; margin-left: 10px; background: #408dce; width: 40px; text-align: center; color: #fff;
+                                                              height: 82px;
+}
+section#content_news .contry_news .views_day .view  p {margin-top: 12px; font-size: 1.2em}
+
+section#content_news .contry_news .pos_news {position: absolute; bottom: 0; color: #fff; background:  #000; opacity: 0.7; padding: 5px}
+section#content_news .contry_news .pos_news  a { color: #fff; font-weight: bold; font-size: 18px;
+                                       border-bottom: 1px solid #fff; width: 100%;
+}
+section#content_news   .see_all {background: #408dce; color: #fff; padding-left: 10px; padding-right: 10px; padding-top: 5px;
+                                 padding-bottom: 5px; margin-top: 5px; margin-bottom: 5px;
+                                 font-size: 1.5em; font-weight: bold; 
+}
+section#content_news .news_right .bg_r{
+    height: 54px; background: #2b3b44; margin-bottom: 0px;
+}
+
+
+section#content_news .list_news {margin-top: 10px; position: relative}
+section#content_news .list_news img {width: 100%; height: 198px}
+section#content_news .list_news .views_day {
+left: 1px;
+    margin: 10px;
+    position: absolute;
+    top: 1px;
+}
+section#content_news .list_news .views_day .time___ {float: left; margin-left: 10px}
+section#content_news .list_news .views_day .time_date {
+    border: 1px solid #838383; text-align: center;  background: #fff;  font-size: 26px;
+    padding: 5px; color: #009aa0; font-weight: bold;
+}
+
+section#content_news .list_news .views_day .time_date {
+    background: #408dce none repeat scroll 0 0;
+    border: 1px solid #838383;
+    color: #fff;
+    
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+section#content_news .list_news .views_day  .year {background: #fff; text-align: center; color: #408dce; 
+                                                               font-size: 1em;
+}
+section#content_news .list_news .views_day .view {float: left; margin-left: 10px; background: #408dce; width: 35px; text-align: center; color: #fff;
+                                                              height: 58px;
+}
+section#content_news .list_news .views_day .view  p {margin-top:1px; font-size: 1em}
+
+section#content_news .list_news .pos_news {position: absolute; bottom: 0; color: #fff; background:  #000; opacity: 0.7; padding: 5px}
+section#content_news .list_news .pos_news  a { color: #fff; font-weight: bold; font-size: 18px;
+                                       border-bottom: 1px solid #fff; width: 100%;
+}
+
+ #topic .list_topic{position:relative; margin-top: 20px; padding-left: 0;
+    padding-right: 0;}
+    #topic .list_topic img{width: 100%; display: block;float: left;max-height: 320px;}
+    #topic .views_day {position: absolute;top: 10px;}
+    #topic .views_day .view{float: left;margin-left: 10px;background: #3399cc;width: 26px;text-align: center;color: #fff;height: 71px;}
+    #topic .views_day .time___{margin-left: 10px;float: left;}
+    #topic .views_day .time_date{border: 1px solid #838383;text-align: center;font-family: helveticaneuemedium;background: #fff;font-size: 26px;padding: 5px;color: #3399cc;font-weight: bold;}
+    #topic .views_day .year{background: #3399cc;text-align: center;color: #fff;font-family: helveticaneuemedium;font-size: 15px;}
+    #topic .pos_news{position: absolute;bottom: 0;color: #fff;background: url('../images/info.png');padding: 0px 5px;padding:10px; width: 99%;}
+    #topic .pos_news a{font-size: 1.8em;font-weight: bold;color:#fff}
+    #topic .pos_news a:hover{text-decoration: none;}
+    #topic .pos_news hr{margin-top: 5px;margin-bottom: 10px;}
+    #topic .pos_news p{margin-bottom: 0px;}

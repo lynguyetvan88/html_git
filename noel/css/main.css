@@ -1,0 +1,310 @@
+
+#section0{
+    background: url(../img/trangchu.jpg) no-repeat;
+    background-size: 100% 100% ;
+    cursor: pointer;  
+  
+
+}
+#section1{
+    background: url(../img/uu-dai.jpg);
+    background-size: cover ; cursor: pointer;
+}
+#section2{
+    background: url(../img/lam-dep-mua-xuan.jpg);
+    background-size: cover ; cursor: pointer;
+}
+#section3{
+    background: url(../img/trang-hong-rang-ro.jpg);
+    background-size: cover ;cursor: pointer;  
+}
+#section4{
+    background: url(../img/loi-cam-ket.jpg);
+    background-size: cover ;cursor: pointer;  
+}
+#section5{
+    background: url(../img/bg_dangky.jpg);
+    background-size: cover ;
+}
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;line-height:50px;
+    position: fixed; bottom: 10px; right: 10px;
+}
+
+.btn-circle.btn-dark {
+    border: 2px solid #666;
+    color: #666;
+}
+
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle.btn-dark :hover,
+.btn-circle.btn-dark :focus {
+    outline: 0;
+    color: #999;
+    background: #fff;
+}
+
+.btn-circle.btn-dark :hover i,
+.btn-circle.btn-dark :focus i{
+    color: #999;
+}
+.diadiem li{list-style:none;padding:5px 10px 5px 0px;margin:5px 0;font-size:16px;color:#fff}
+.diadiem li span{display:block;text-transform:uppercase;font-weight:700;color:yellow}
+.diadiem i{font-size:28px;border:1px solid #f29220;color:#f29220;width:48px;height:48px;line-height:48px;text-align:center;border-radius:48px;}
+.diadiem{ margin-left: 57px !important;}
+select.form-control{padding:6px!important}
+.diadiem2 li span{color:#F29220;font-weight:300;font-size:18px}
+.diadiem2 li{color:#fff;font-size:14px}
+
+.btndk{background: -moz-linear-gradient(
+           top,
+           #ff2819 0%,
+           #ab0000);
+       background: -webkit-gradient(
+           linear, left top, left bottom,
+           from(#ff2819),
+           to(#ab0000));
+       -moz-border-radius: 6px;
+       -webkit-border-radius: 6px;
+       border-radius: 6px;
+       border: 1px solid #7d0000;
+       -moz-box-shadow:
+           0px 1px 3px rgba(000,000,000,0.5),
+           inset 0px 0px 2px rgba(255,255,255,0.7);
+       -webkit-box-shadow:
+           0px 1px 3px rgba(000,000,000,0.5),
+           inset 0px 0px 2px rgba(255,255,255,0.7);
+       box-shadow:
+           0px 1px 3px rgba(000,000,000,0.5),
+           inset 0px 0px 2px rgba(255,255,255,0.7);
+       text-shadow:
+           0px -1px 0px rgba(000,000,000,0),
+           0px 1px 0px rgba(255,255,255,0);
+       padding:8px 60px;display:table;color:#fff;border-radius:40px;text-transform:uppercase;font-size:20px}
+.btndk:hover,.btndk:focus{color:#fff}
+.main-example {
+    margin:40px auto 0;
+    width: 400px;
+}
+.main-example .countdown-container {
+    height: 80px;
+}
+.main-example .time {
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 60px;
+    width: 64px;margin-left:20px;
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    -ms-perspective: 500px;
+    -o-perspective: 500px;
+    perspective: 500px;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    transition:all 500ms ease-in-out 0s;
+}
+.main-example .count {
+    background: #f3f3f3;
+    color: #097096;
+    display: block;
+    font-family: Roboto Condensed;
+    font-size: 47px;
+    line-height: 57px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    font-weight:bold;
+    top: 0;
+    width: 100%;
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+}
+.main-example .count.top {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px 5px 0 0;
+    height: 50%;
+
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.main-example .count.bottom {
+    background-image: linear-gradient(rgba(255,255,255,0.1), transparent);
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.1), transparent);
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.1), transparent);
+    background-image: -ms-linear-gradient(rgba(255,255,255,0.1), transparent);
+    background-image: -o-linear-gradient(rgba(255,255,255,0.1), transparent);
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0 0 5px 5px;
+    line-height: 0;
+    height: 50%;
+    top: 50%;
+
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+.main-example .count.next {
+}
+.main-example .label {
+    font-size: normal;
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    text-transform:uppercase;color:#333;font-weight:normal;font-size:13px
+}
+/* Animation start */
+.main-example .count.curr.top {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    z-index: 3;
+}
+.main-example .count.next.bottom {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    z-index: 2;
+}
+/* Animation end */
+.main-example .flip .count.curr.top {
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
+.main-example .flip .count.next.bottom {
+    -webkit-transition: all 250ms ease-in-out 250ms;
+    -moz-transition: all 250ms ease-in-out 250ms;
+    -ms-transition: all 250ms ease-in-out 250ms;
+    -o-transition: all 250ms ease-in-out 250ms;
+    transition: all 250ms ease-in-out 250ms;
+
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+#main-example .giay {transition:all 500ms ease-in-out 0s;}
+.headline{padding: 100px 0 0; text-align: center}
+#WFItem14313003{margin: 0 auto}
+.contact_mb {display: none}
+@media (max-width:768px){
+  
+    
+    #section0{
+
+        background-image:url(../img/mobi/mobile-trang-chu.jpg);
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-position:top center;
+        margin-top: 50px;
+        
+    }
+
+    #section1{
+      
+         background-image:url(../img/mobi/mobile-uu-dai.jpg);
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-position:top center;
+        cursor: pointer;
+    }
+    #section2{
+       
+        background-image:url(../img/mobi/mobile-lam-dep-mua-xuan.jpg);
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-position:top center;
+        cursor: pointer;
+    }
+    #section3{
+     
+          background-image:url(../img/mobi/mobile-trang-hong-rang-ro.jpg);
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-position:top center;
+    }
+     #section4{
+     
+          background-image:url(../img/mobi/mobile-loi-cam-ket.jpg);
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-position:top center;
+    }
+    #section5{
+      
+          background-image:url(../img/mobi/bg_mb.jpg);
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-position:top center;
+    }
+    .contact_desktop {display: none}
+    .contact_mb {display: block}
+}
+

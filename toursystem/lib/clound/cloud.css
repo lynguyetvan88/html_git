@@ -1,0 +1,326 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2015, 9:53:01 AM
+    Author     : LYANH77
+*/
+
+
+section#home_slider .moon {
+
+    position:absolute;
+    left:30px;
+    height:100%;
+    width:300%;
+    -webkit-animation:moon 50s linear infinite;
+    -moz-animation:moon 50s linear infinite;
+    -o-animation:moon 50s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+
+section#home_slider .clouds_one {
+    background:url("img/may.png") top no-repeat;
+    position:absolute;
+    left:0;
+    top:0px;
+    height:100%;
+    width:300%;
+    -webkit-animation:cloud_one 50s linear infinite;
+    -moz-animation:cloud_one 50s linear infinite;
+    -o-animation:cloud_one 50s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+section#home_slider .clouds_two {
+    background:url("img/may.png") top no-repeat;
+    position:absolute;
+    left:0;
+    top:0px;
+    height:100%;
+    width:300%;
+    -webkit-animation:cloud_two 75s linear infinite;
+    -moz-animation:cloud_two 75s linear infinite;
+    -o-animation:cloud_two 75s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+section#home_slider .clouds_three {
+    background:url("img/may.png") top no-repeat;
+    position:absolute;
+    left:0;
+    top:0px;
+    height:100%;
+    width:300%;
+    -webkit-animation:cloud_three 100s linear infinite;
+    -moz-animation:cloud_three 100s linear infinite;
+    -o-animation:cloud_three 100s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+@-webkit-keyframes sky_background {
+    0% {
+        background:#007fd5;
+        color:#007fd5
+    }
+
+    50% {
+        background:#000;
+        color:#a3d9ff
+    }
+
+    100% {
+        background:#007fd5;
+        color:#007fd5
+    }
+}
+
+@-webkit-keyframes moon {
+    0% {
+        opacity: 0;
+        left:-200%
+            -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 1;
+        -moz-transform: scale(1);
+        left:0%
+            bottom:250px;
+        -webkit-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        bottom:500px;
+        -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+}
+
+@-webkit-keyframes cloud_one {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-webkit-keyframes cloud_two {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-webkit-keyframes cloud_three {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-webkit-keyframes plane {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+
+@-moz-keyframes sky_background {
+    0% {
+        background:#007fd5;
+        color:#007fd5
+    }
+
+    50% {
+        background:#000;
+        color:#a3d9ff
+    }
+
+    100% {
+        background:#007fd5;
+        color:#007fd5
+    }
+}
+
+@-moz-keyframes moon {
+    0% {
+        opacity: 0;
+        left:-200%
+            -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 1;
+        -moz-transform: scale(1);
+        left:0%
+            bottom:250px;
+        -webkit-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        bottom:500px;
+        -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+}
+
+@-moz-keyframes cloud_one {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-moz-keyframes cloud_two {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-moz-keyframes cloud_three {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-moz-keyframes plane {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+
+
+
+section#home_slider #clouds{
+
+    width: 243px; height: 66px;
+    margin-top: 5px;
+    position: absolute; z-index: 0; right:  0; 
+
+    -webkit-transition: all 42s ease;
+    -moz-transition: all 42s ease;
+    -ms-transition: all 42s ease;
+    -o-transition: all 42s ease;
+    transition: all 42s ease;
+
+    transition-delay: 2s;
+    -webkit-transition-delay: 2s;
+    -moz-transition-delay: 2s;
+    -o-transition-delay: 2s;
+
+}
+
+/*Time to finalise the cloud shape*/
+section#home_slider .cloud {
+    width: 243px; height: 66px;
+    background:url("img/maybay.png") top no-repeat;
+    position: relative; 
+}
+
+section#home_slider .cloud:before, section#home_slider .cloud:after {
+    content: '';
+    position: absolute; 
+    background: #fff;
+
+    position: absolute; top: -15px; left: -100px;
+
+
+}
+
+section#home_slider .cloud:after { 
+
+    top: -55px; left: auto; right: 15px;
+}
+
+/*Time to animate*/
+section#home_slider .x1 {
+    -webkit-animation: moveclouds 20s linear infinite;
+    -moz-animation: moveclouds 20s linear infinite;
+    -o-animation: moveclouds 20s linear infinite;
+
+}
+
+
+section#home_slider .island{position:  absolute; left: 0; top: 120px; width: 530px; height: 244px;
+                            background: url(img/02.png);
+}
+section#home_slider .luggage {position:  absolute; right: 0; bottom: 0px; width: 300px; height: 303px;
+                              background: url(img/01.png);}
+section#home_slider .gilr {position:  absolute; right: 210px; bottom: 0px; width: 406px; height: 402px;
+                           background: url(img/03.png);}
+section#home_slider .txt1 {position:  absolute; left: 10px; top: 80px; width: 661px; height: 53px;
+                           /*       background-image: url(img/txt1_03.png) ; 
+                                  background-attachment: fixed;*/
+
+}
+/*section#home_slider .txt1 img {
+    background-color:  #00cccc ;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}*/
+section#home_slider .txt2 {position:  absolute; left: 10px; top: 145px; width: 661px; height: 53px;
+                          }
+/*section#home_slider .txt2 img {
+    background-color:  #c9ac49 ;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}*/
+@-webkit-keyframes moveclouds {
+    0% {margin-left: 1000px;}
+    100% {margin-left: -1500px;}
+}
+@-moz-keyframes moveclouds {
+    0% {margin-left: 1000px;}
+    100% {margin-left: -1500px;}
+}
+@-o-keyframes moveclouds {
+    0% {margin-left: 1000px;}
+    100% {margin-left: -1500px;}
+}
+@media (max-width:768px){
+    section#home_slider .txt2, section#home_slider .txt1 {width: 320px; height: auto}
+}

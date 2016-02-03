@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2015, 9:53:01 AM
+    Author     : LYANH77
+*/
+
+
+.moon {
+
+    position:absolute;
+    left:30px;
+    height:100%;
+    width:300%;
+    -webkit-animation:moon 50s linear infinite;
+    -moz-animation:moon 50s linear infinite;
+    -o-animation:moon 50s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+
+.clouds_one {
+    background:url("../img/may.png") top no-repeat;
+    position:absolute;
+    left:0;
+    top:0px;
+    height:100%;
+    width:300%;
+    -webkit-animation:cloud_one 50s linear infinite;
+    -moz-animation:cloud_one 50s linear infinite;
+    -o-animation:cloud_one 50s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+.clouds_two {
+    background:url("../img/may.png") top no-repeat;
+    position:absolute;
+    left:0;
+    top:0px;
+    height:100%;
+    width:300%;
+    -webkit-animation:cloud_two 75s linear infinite;
+    -moz-animation:cloud_two 75s linear infinite;
+    -o-animation:cloud_two 75s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+.clouds_three {
+    background:url("../img/may.png") top no-repeat;
+    position:absolute;
+    left:0;
+    top:0px;
+    height:100%;
+    width:300%;
+    -webkit-animation:cloud_three 100s linear infinite;
+    -moz-animation:cloud_three 100s linear infinite;
+    -o-animation:cloud_three 100s linear infinite;
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0)
+}
+
+@-webkit-keyframes sky_background {
+    0% {
+        background:#007fd5;
+        color:#007fd5
+    }
+
+    50% {
+        background:#000;
+        color:#a3d9ff
+    }
+
+    100% {
+        background:#007fd5;
+        color:#007fd5
+    }
+}
+
+@-webkit-keyframes moon {
+    0% {
+        opacity: 0;
+        left:-200%
+            -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 1;
+        -moz-transform: scale(1);
+        left:0%
+            bottom:250px;
+        -webkit-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        bottom:500px;
+        -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+}
+
+@-webkit-keyframes cloud_one {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-webkit-keyframes cloud_two {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-webkit-keyframes cloud_three {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-webkit-keyframes plane {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+
+@-moz-keyframes sky_background {
+    0% {
+        background:#007fd5;
+        color:#007fd5
+    }
+
+    50% {
+        background:#000;
+        color:#a3d9ff
+    }
+
+    100% {
+        background:#007fd5;
+        color:#007fd5
+    }
+}
+
+@-moz-keyframes moon {
+    0% {
+        opacity: 0;
+        left:-200%
+            -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 1;
+        -moz-transform: scale(1);
+        left:0%
+            bottom:250px;
+        -webkit-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        bottom:500px;
+        -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+}
+
+@-moz-keyframes cloud_one {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-moz-keyframes cloud_two {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-moz-keyframes cloud_three {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+@-moz-keyframes plane {
+    0% {
+        left:0
+    }
+
+    100% {
+        left:-200%
+    }
+}
+
+
+
+#clouds{
+
+    height: 100px; 
+    background:url("../img/08.png") top no-repeat;
+    background-size: auto 50px; 
+    position: absolute; z-index: 0; left: 0; 
+
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    margin-top: 10px;
+
+}
+
+/*Time to finalise the cloud shape*/
+
+/*Time to animate*/
+.x1 {
+    -webkit-animation: moveclouds 15s linear infinite;
+    -moz-animation: moveclouds 15s linear infinite;
+    -o-animation: moveclouds 15s linear infinite;
+
+
+}
+
+
+@-webkit-keyframes moveclouds {
+    0% {margin-left: 2184px;}
+    100% {margin-left: 0;}
+
+}
+@-moz-keyframes moveclouds {
+    0% {margin-left: 2184px;}
+
+    100% {margin-left: 0;}
+}
+@-o-keyframes moveclouds {
+    0% {margin-left: 2184px;}
+    100% {margin-left: 0;}
+}
+
+

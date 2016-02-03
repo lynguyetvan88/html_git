@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* slider layout */
+
+.lof-slidecontent .preload{left:auto;	right:0;}
+.lof-slidecontent  ul.sliders-wrap-inner li{float:right;}
+.lof-slidecontent  .lof-opacity  li{left:auto;	right:0; }
+.lof-slidecontent  .navigator-content {left:auto;	right:0;}
+.lof-slidecontent  .navigator-wrapper{	float:right}
+.lof-slidecontent  ul.navigator-wrap-inner li{ margin-right:0px;float:right;}
+
+/*******************************************************/
+ .lof-slidecontent .slider-description{right:auto;	left:0;}
+
+/* item navigator */
+.lof-slidecontent ul.navigator-wrap-inner  li.active{ }
+.lof-slidecontent ul.navigator-wrap-inner  li >  div{
+	padding-left:0;padding-right:15px;
+	text-align:right
+}
+
+.lof-slidecontent ul.navigator-wrap-inner li img{
+	margin:15px 0 10px 15px;
+	float:right;
+}
+
+.lof-slidecontent   .button-next {
+	right:auto; left:0px;
+	background:url(../images/previous.png) no-repeat left center;
+}
+.lof-slidecontent  .button-previous {
+	left:auto;right:0px;
+	background:url(../images/next.png) no-repeat right center;
+}
+
+.lof-slidecontent .button-control {   right:auto; left:48%;   }

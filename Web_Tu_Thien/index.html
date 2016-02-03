@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="menu/css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="menu/js/prefixfree.min.js" type="text/javascript"></script>
+        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <!--  silder -->
+
+
+        <link rel="stylesheet" type="text/css" href="lib/slider/css/layout-rtl.css" />
+        <link rel="stylesheet" type="text/css" href="lib/slider/css/style3.css" />
+        <link rel="stylesheet" type="text/css" href="lib/slider/css/style3-rtl.css" />
+        <script language="javascript" type="text/javascript" src="lib/slider/js/jquery.js"></script>
+        <script language="javascript" type="text/javascript" src="lib/slider/js/jquery.easing.js"></script>
+        <script language="javascript" type="text/javascript" src="lib/slider/js/script.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var buttons = {previous: $('#jslidernews3 .button-previous'),
+                    next: $('#jslidernews3 .button-next')};
+                $('#jslidernews3').lofJSidernews({interval: 5000,
+                    direction: 'opacity',
+                    easing: 'easeOutBounce',
+                    duration: 1200,
+                    auto: false,
+                    mainWidth: 980,
+                    mainHeight: 300,
+                    navigatorHeight: 100,
+                    navigatorWidth: 310,
+                    maxItemDisplay: 4,
+                    buttons: buttons
+                    , rtl: true});
+            });
+
+        </script>
+        <style>
+
+            ul.lof-main-wapper li {
+                position:relative;	
+            }
+        </style>
+        <!--  silder -->
+
+    </head>
+    <body>
+
+
+
+        <header id="header">
+            &nbsp;
+        </header>
+
+        <nav id="nav" class="animenu">
+            <div class="container">
+                <div class="row">
+                    <button class="animenu__toggle"> 
+                        <span class="animenu__toggle__bar"></span>
+                        <span class="animenu__toggle__bar"></span>
+                        <span class="animenu__toggle__bar"></span>
+                    </button>
+
+                    <ul class="animenu__nav pull-right">
+
+                        <li>
+                            <a href="#">Trang chủ</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Tin từ thiện</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Tấm gương sáng </a>
+
+                        </li>     
+                        <li>
+                            <a href="#">Hoàn cảnh khó khăn </a>
+
+                        </li>
+
+                        <li>
+                            <a href="#">Liên hệ</a>
+
+                        </li>  
+                        <li>
+                            <input type="text" id="key_search" />
+                            <img src="images/search_03.png" id="btn_search" alt=""/>
+                        </li>
+                    </ul>
+
+                    <img src="images/logo_03.png" id="logo" alt=""/>
+
+                </div>
+            </div>
+        </nav>
+
+        <header id="welcome">
+            <div class="container">
+                <div class="col-lg-2"> &nbsp;</div>
+                <div class="col-lg-10"> 
+                    <marquee behavior="alternate" scrollamount="5" direction="left" align="center">
+                        Chào mừng các bạn đến với  “Câu Lạc Bộ Từ Thiện Hội Tụ Nhân Tâm Giúp Đỡ Cộng Đồng”
+                    </marquee>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <section class="block">
+            <div class="container">
+                <div class="row">
+                    <div id="jslidernews3" class="lof-slidecontent" style="width:100%; height:450px;">
+                        <div class="preload"><div></div></div>
+
+
+
+                        <!-- MAIN CONTENT --> 
+                        <div class="main-slider-content col-md-9" style=" height:400px; padding-left: 0; padding-right: 30px">
+                            <div class="title">
+                                Ảnh tin mới
+                            </div>
+                            <ul class="sliders-wrap-inner">
+                                <li>
+                                    <img src="images/web-tuthien-copy-3_03.png" title="Newsflash 2" >           
+                                    <div class="slider-description">
+                                        <div class="slider-meta"><a target="_parent" title="Newsflash 1" href="#Category-1">/ 1 /</a> <i> — Monday, February 15, 2010 12:42</i></div>
+
+                                    </div>
+                                </li> 
+                                <li>
+                                    <img src="lib/slider/images/thumbl_980x340_002.png" title="Newsflash 1" >           
+                                    <div class="slider-description">
+                                        <div class="slider-meta"><a target="_parent" title="Newsflash 2" href="#Category-2">/ 2 /</a> 	<i> — Monday, February 15, 2010 12:42</i></div>
+
+                                    </div>
+                                </li> 
+                                <li>
+                                    <img src="lib/slider/images/thumbl_980x340_003.png" title="Newsflash 3" >            
+                                    <div class="slider-description">
+                                        <div class="slider-meta"><a target="_parent" title="Newsflash 3" href="#Category-3">/ 3 3 /</a> 	<i> — Monday, February 15, 2010 12:42</i></div>
+
+
+                                    </div>
+                                </li> 
+                                <li>
+                                    <img src="lib/slider/images/thumbl_980x340_004.png" title="Newsflash 5" >            
+                                    <div class="slider-description">
+                                        <div class="slider-meta"><a target="_parent" title="Newsflash 4" href="#Category-4">/ 4 4 /</a>	<i> — Monday, February 15, 2010 12:42</i></div>
+
+                                    </div>
+                                </li> 
+                                <li>
+                                    <img src="lib/slider/images/thumbl_980x340_005.png" title="Newsflash 5" >            
+                                    <div class="slider-description">
+                                        <div class="slider-meta"><a target="_parent" title="Newsflash 5" href="#">/ Newsflash 5 /</a>	<i> — Monday, February 15, 2010 12:42</i></div>
+
+                                    </div>
+                                </li> 
+
+                                <li>
+
+                                    <img src="lib/slider/images/thumbl_980x340_006.png" title="Newsflash 5" >            
+                                    <div class="slider-description">
+                                        <div class="slider-meta"><a target="_parent" title="Newsflash 6" href="#">/ Newsflash 6 /</a>	<i> — Monday, February 15, 2010 12:42</i></div>
+
+                                    </div>
+                                </li> 
+
+
+
+                            </ul>  	
+                        </div>
+                        <!-- END MAIN CONTENT --> 
+                        <!-- NAVIGATOR -->
+                        <div class="navigator-content col-md-3 pull-right" style="padding-right: 0">
+                            <div class="navigator-wrapper">
+                                <div class="title">
+                                    tin mới 
+                                    <div  class="button-previous"><i class="fa fa-arrow-circle-o-right"></i></div>
+                                    <div class="button-next"><i class="fa fa-arrow-circle-o-left"></i>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <ul class="navigator-wrap-inner">
+                                    <li>
+                                        <div>
+
+                                            <img src="images/web-tuthien-copy-3_03.png" class="thumbnail pull-left" />
+                                            <h2> Ngôi làng chỉ có người già mất sức và trẻ em thơ dại ở</h2>
+                                            <p>
+                                                Những lần hóa trị, nó đau chịu không nổi.Nó đòi về chơi ....
+                                            </p>
+                                            <span class="date">27/01/2016  </span>
+                                            <a href="#" title="">
+                                                <span class="readmore"> > Xem tiếp </span>
+                                            </a>  
+
+
+
+
+                                        </div>    
+                                    </li>
+                                    <li>
+                                        <div>
+
+                                            <img src="images/web-tuthien-copy-3_03.png" class="thumbnail pull-left" />
+                                            <h2> Ngôi làng chỉ có người già mất sức và trẻ em thơ dại ở</h2>
+                                            <p>
+                                                Những lần hóa trị, nó đau chịu không nổi.Nó đòi về chơi ....
+                                            </p>
+                                            <span class="date">27/01/2016  </span>
+                                            <a href="#" title="">
+                                                <span class="readmore"> > Xem tiếp </span>
+                                            </a>  
+
+
+
+
+                                        </div>    
+                                    </li>
+
+                                    <li>
+                                        <div>
+
+                                            <img src="images/web-tuthien-copy-3_03.png" class="thumbnail pull-left" />
+                                            <h2> Ngôi làng chỉ có người già mất sức và trẻ em thơ dại ở</h2>
+                                            <p>
+                                                Những lần hóa trị, nó đau chịu không nổi.Nó đòi về chơi ....
+                                            </p>
+                                            <span class="date">27/01/2016  </span>
+                                            <a href="#" title="">
+                                                <span class="readmore"> > Xem tiếp </span>
+                                            </a>  
+
+
+
+
+                                        </div>    
+                                    </li>
+                                    <li>
+                                        <div>
+
+                                            <img src="images/web-tuthien-copy-3_03.png" class="thumbnail pull-left" />
+                                            <h2> Ngôi làng chỉ có người già mất sức và trẻ em thơ dại ở</h2>
+                                            <p>
+                                                Những lần hóa trị, nó đau chịu không nổi.Nó đòi về chơi ....
+                                            </p>
+                                            <span class="date">27/01/2016  </span>
+                                            <a href="#" title="">
+                                                <span class="readmore"> > Xem tiếp </span>
+                                            </a>  
+
+
+
+
+                                        </div>    
+                                    </li>
+                                    <li>
+                                        <div>
+
+                                            <img src="images/web-tuthien-copy-3_03.png" class="thumbnail pull-left" />
+                                            <h2> Ngôi làng chỉ có người già mất sức và trẻ em thơ dại ở</h2>
+                                            <p>
+                                                Những lần hóa trị, nó đau chịu không nổi.Nó đòi về chơi ....
+                                            </p>
+                                            <span class="date">27/01/2016  </span>
+                                            <a href="#" title="">
+                                                <span class="readmore"> > Xem tiếp </span>
+                                            </a>  
+
+
+
+
+                                        </div>    
+                                    </li>
+                                    <li>
+                                        <div>
+
+                                            <img src="images/web-tuthien-copy-3_03.png" class="thumbnail pull-left" />
+                                            <h2> Ngôi làng chỉ có người già mất sức và trẻ em thơ dại ở</h2>
+                                            <p>
+                                                Những lần hóa trị, nó đau chịu không nổi.Nó đòi về chơi ....
+                                            </p>
+                                            <span class="date">27/01/2016  </span>
+                                            <a href="#" title="">
+                                                <span class="readmore"> > Xem tiếp </span>
+                                            </a>  
+
+
+
+
+                                        </div>    
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+                        </div> 
+                        <!----------------- END OF NAVIGATOR --------------------->
+
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        <section id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 content_left">
+                        <div class="page_main">
+                            <div class="title">
+                                Tin từ thiện <a href="#" title="" class="pull-right"> Xem tiếp &Gt; </a>
+                            </div>
+                            <div class="content_page">
+                                <div class="col-md-8 col-lg-8">
+
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-md-4 col-lg-4">
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="page_main">
+                            <div class="title">
+                                Tin từ thiện <a href="#" title="" class="pull-right"> Xem tiếp &Gt; </a>
+                            </div>
+                            <div class="content_page">
+                                <div class="col-md-8 col-lg-8">
+
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-md-4 col-lg-4">
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+
+                        <div class="page_main">
+                            <div class="title">
+                                Tin từ thiện <a href="#" title="" class="pull-right"> Xem tiếp &Gt; </a>
+                            </div>
+                            <div class="content_page">
+                                <div class="col-md-8 col-lg-8">
+
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page">
+                                        <a href="#" title="" >
+                                            <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        </a>   
+                                        <div class="clearfix"></div>
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <p class="discription">
+                                            Trong chương trình gala Trái tim cho em, nhiều người đã bật khóc khi được nghe tâm sự về ca mổ đánh dấu “bước ngoặt” cuộc đời của chàng sinh viên trẻ.  Hơn 1 năm nay, các thành viên trong câu lạc bộ (CLB) Niềm tin xanh Hải Dương duy trì hoạt động nấu cháo từ thiện cho các bệnh nhân .........
+                                        </p>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-md-4 col-lg-4">
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="conten_list_page_1">
+                                        <img src="images/product_03.png" alt="" class="thumbnail pull-left img_page"/>
+                                        <h2 class="title_page"> Ca mổ tim tiếp sức cho ước mơ của trẻ em nghèo hiếu học</h2>
+                                        <p class="date_page">
+                                            <span>27/01/2016 19:45:21</span>
+                                            <span class="text-right pull-right"> <a href="" title=""> > Xem tiếp  </a> </span>
+                                        </p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3  content_right">
+                        <div class="title">
+                            sdsds
+                        </div>
+
+                        TRUNG TÂM GIÁO DỤC VÀ ĐÀO TẠO HOA KỲ - VETEC
+
+                        Địa chỉ: Tòa nhà Tiền Phong, lầu 4, 24 Trường Sơn, P.2, Quận Tân Bình, Tp.HCM, Việt Nam
+
+                        Điện thoại: (08) 3844 9150       Email: info@vetecusa.org       Website:www.vetecusa.org
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer id="footer">
+            <div class="foo_1"></div>
+            <div class="foo_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h3>CÂU LẠC BỘ TỪ THIỆN TỰ NGUYỆN  HỘI TỤ NHÂN TÂM GIÚP ĐỠ CỘNG ĐỒNG</h3>
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Trang chủ</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Tin từ thiện</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Tấm gương sáng</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Hoàn cảnh khó khăn</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Video từ thiện</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Hội viên</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Liên hệ</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="foo_3">
+                   <div class="container">
+                       <div class="row">
+                           <p>  Mục đích hội tụ nhân tâm đễ giúp đỡ các hoàn cảnh khó khăn ở Việt Nam
+                               <br/> copyright@www.giupdocongdong.com.vn 
+                           </p>
+                       </div>
+                   </div>
+              
+
+            </div>
+
+        </footer>
+
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="menu/js/index.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>

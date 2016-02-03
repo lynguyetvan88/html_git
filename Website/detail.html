@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        SMARTPHONE NOKIA LUMIA
+    </title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Mỗi ngày ở khắp nơi trên thế giới, người ta đều theo đuổi những cuộc phiêu lưu của riêng mình, dù lớn hay nhỏ. Hãy khám phá thế giới xung quanh bạn với công nghệ" scheme="">
+    <meta name="Keywords" content="Nokia, Nokia lumia, smartphone nokia" scheme="">
+    <meta name="application-name" content="Nokia Lumia by ENS Company" scheme="">
+     <link rel="shortcut icon" type="image/x-icon" href="images/win.ico" />
+
+    <!--Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft. See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.-->
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1.js"></script>
+    <script type="text/javascript" src="js/MetroJs.js"></script>
+    <script type="text/javascript" src="js/jQueryRotate.js"></script>
+    <script type="text/javascript" src="js/screenfull.js"></script>
+        <script type="text/javascript" src="js/jquery.address-1.5.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/MetroJs.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+     <link rel="stylesheet" type="text/css" href="css/prodetail.css" />
+
+</head>
+<body>
+    <div class="overlay-popup">
+    </div>
+    <div class="popup_loading">
+        <span class="content_loading" style="display: block">Bạn vui lòng đợi trong giây lát
+            ...</span> <span class="l-1"></span><span class="l-2"></span><span class="l-3"></span><span class="l-4"></span><span class="l-5"></span><span class="l-6"></span>
+        <span class="l-7"></span><span class="l-8"></span><span class="l-9"></span>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            function ShowLoading(isshow) {
+                if (isshow) {
+                    $(".overlay-popup").fadeIn(500);
+                    $(".popup_loading").css({
+                        left: ($(window).width() - $('.popup_loading').width()) / 2,
+                        top: ($(window).width() - $('.popup_loading').width()) / 7
+                    }).show();
+
+                }
+                else {
+                    setTimeout(function () {
+                        $(".overlay-popup").fadeOut(200);
+                        $(".popup_loading").fadeOut(500).hide();
+                    }, 500);
+                }
+
+            }
+            ShowLoading(true);
+            $(".productdetail").load("pages/" + location.hash.replace("#","") + ".html", function () {
+                ShowLoading(false);
+            });
+        })
+
+    </script>
+
+    <div id="wraper">
+        
+        <div id="header" class="navbar navbar-static-top ">
+            <div class="logo">
+                <img src="images/logo.png" alt="Nokia lumia" />
+            </div>
+            <div class="menutop">
+                <ul class="nav ">
+                    <li><a class="active jqueryaddress" href="#!/">Trang chủ</a></li>
+                    <li><a rel="#lumia920" class="jqueryaddress" href="#!/sanpham">Sản phẩm</a></li>
+                    <li><a rel="#Footer" class="jqueryaddress" href="#!/ungdung">Ứng dụng</a></li>
+                    <li><a rel="#Contact" class="jqueryaddress" href="#!/lienhe">Liên hệ</a></li>
+                </ul>
+                <span class="clearfix"></span>
+            </div>
+        </div>
+        <div class="row-fluid " id="prodetail">
+            <div class="container productitem">
+            <div class="productdetail"></div>
+          
+            <a class="backtproreview jqueryaddress" rel="/lumia920detail" href="#!/">
+                <img src="images/back.png" /></a>
+        </div>
+           </div>
+        <!-- /End Lumia 920 -->
+        
+        <!-- /End Lumia 520 -->
+        <!-- Begin contact -->
+ 
+        <!-- /End contact -->
+        <!-- /Footer -->
+        <div class="row-fluid " id="Footer">
+
+            <div class="container">
+                <div class="APPS">
+                    <h2>Đã có hơn 145,000 ứng dụng
+cho bạn thỏa sức làm việc và giải trí</h2>
+                    <div class="listapps">
+             
+                        <p class="clear"></p>
+                        <div class="viewmoreapps">
+                            <a href="http://www.windowsphone.com/en-us/store/top-paid-apps" target="_blank">Top ứng dụng
+                                <img src="images/viewmoreapp.png" />
+                            </a>
+                            <a href="http://www.windowsphone.com/en-us/store/xbox-games" target="_blank">Top Games
+                                <img src="images/viewmoreapp.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                 <h5>© 2013 Nokia by <a style="color:#828282;text-decoration:none" href="http://www.ens.vn/" target="_blank">ENS</a></h5>
+                
+                <div class="sociallink">
+                    <ul>
+                        <li><a target="_blank" href="https://www.facebook.com/officialllumia?ref=ts&fref=ts">
+                            <img alt="facebook icon" src="images/ico_face.png">
+                        </a></li>
+                        <li><a target="_blank" href="https://twitter.com/LumiaNews">
+                            <img alt="twitter icon" src="images/ico-twi.png"></a> </li>
+                        <li><a target="_blank" href="http://www.youtube.com/results?search_query=nokia+lumia+&oq=nokia+lumia+&gs_l=youtube.3..35i39l2j0l8.2147.2147.0.2434.1.1.0.0.0.0.84.84.1.1.0...0.0...1ac.1.11.youtube.8RpqswmjIvw"></a>
+                            <img alt="youtube icon" src="images/ico-youtu.png">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+     
+        <!-- /Footer-->
+    </div>
+
+</body>
+</html>

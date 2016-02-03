@@ -1,0 +1,491 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2015, 5:17:46 PM
+    Author     : LYANH77
+*/
+body {font-family: Meiryo; overflow-x: hidden}
+header#header {background: #2b3b44; color: #fff; padding: 5px 0px}
+header#header a {color: #fff; }
+header#header .txt_login {font-weight: bold}
+header#header .txt_info a {padding: 0px 10px}
+header#header .txt_info a:first-child {padding-left: 0}
+
+nav#nav .logo img {height: 45px; margin-top: 5px}
+section#home_marketing .bg_white {
+    height: 170px;
+}
+section#home_marketing #marketing_list {
+    min-height: 500px;
+    background: url('../images/slide1_bg.png');
+    background-size: cover;
+    /*padding-bottom: 60px*/
+
+}
+
+section#home_marketing .owl-carousel{ margin-top: 70px}
+section#home_marketing .owl-carousel .item {padding: 5px}
+/*section#home_marketing .owl-carousel .item{padding:  0xp 5px}
+section#home_marketing .owl-carousel .item {margin-left: 30px}
+section#home_marketing .owl-carousel .item:first-child {margin-left: 30px;}
+section#home_marketing .owl-carousel .item:last-child {margin-right:  0}*/
+section#home_marketing  .owl-carousel .owl-wrapper, .owl-carousel .owl-item{text-align: center}
+section#home_marketing .owl-carousel .item img {width: 100%}
+section#home_marketing .owl-carousel .item p {background: #fff; width: 100%; padding-right: 0px; color: #98ce44;}
+section#home_marketing .owl-carousel .item p a {color: #98ce44; }
+section#home_marketing .owl-carousel .item p a:hover{text-decoration: none}
+section#home_marketing .list_country_tour .list_ct_tour {text-align: center; margin: 0 auto;padding-left: 50px;
+                                                         padding-right: 50px;}
+section#home_marketing .list_country_tour  .col-xs-3 {  padding-left: 50px;
+                                                        padding-right: 50px;}
+section#home_marketing .list_country_tour .round{ width: 100%;  border: 3px solid #fff; border-radius: 50%; text-align: center;
+                                                  display: none;
+                                                  padding: 15%;
+}
+section#home_marketing .list_country_tour .round .home_tour_country {width: 100%; height: 100%; 
+                                                                     border-radius: 50%; background: #0099cc;  vertical-align:middle; padding-top: 35%; color: #fff; font-weight: bold;
+                                                                     cursor: pointer;  
+}
+section#home_marketing .list_country_tour .round .home_tour_country:hover{ -webkit-transition: background-color 2s ease-out;
+                                                                           -moz-transition: background-color 1s ease-out;
+                                                                           -o-transition: background-color 1s ease-out;
+                                                                           transition: background-color 1s ease-out; background-color: #faa732}
+.delay_0 { animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s;}
+.delay_1 {animation-delay:0.5s; -moz-animation-delay:0.5s; -webkit-animation-delay:0.5s;}
+.delay_2 {animation-delay:0.8s; -moz-animation-delay:0.8s; -webkit-animation-delay:0.8s;}
+.delay_3 {animation-delay:1.1s; -moz-animation-delay:1.1s; -webkit-animation-delay:1.1s;}
+.delay_4 {animation-delay:1.4s; -moz-animation-delay:1.4s; -webkit-animation-delay:1.4s;}
+.delay_5 {animation-delay:1.7s; -moz-animation-delay:1.7s; -webkit-animation-delay:1.7s;}
+.delay_6 {animation-delay:2s; -moz-animation-delay:2s; -webkit-animation-delay:2s;}
+.delay_7 {animation-delay:2.2s; -moz-animation-delay:2.2s; -webkit-animation-delay:2.2s;}
+.delay_8 {animation-delay:2.5s; -moz-animation-delay:2.5s; -webkit-animation-delay:2.5s;}
+.delay_9 {animation-delay:2.5s; -moz-animation-delay:2.5s; -webkit-animation-delay:2.5s;}
+.delay_10 {animation-delay:2.5s; -moz-animation-delay:2.5s; -webkit-animation-delay:2.5s;}
+.delay_11 {animation-delay:2.5s; -moz-animation-delay:2.5s; -webkit-animation-delay:2.5s;}
+section#home_marketing #owl_list_tour .item .item_tour {padding: 0}
+section#home_marketing #owl_list_tour .item .info_tour {background: #fff; position: relative; height: 253px}
+section#home_marketing #owl_list_tour .item .info_tour h2 {font-size: 14px; margin-top: 5px; }
+section#home_marketing #owl_list_tour .item .info_tour .dis{color: #666666; font-size: 13px}
+section#home_marketing #owl_list_tour .item .info_tour img {height:  40px; width: auto}
+section#home_marketing #owl_list_tour .item .info_tour ul {margin: 0; padding: 0}
+section#home_marketing #owl_list_tour .item .info_tour li {list-style: none}
+section#home_marketing #owl_list_tour .item  .col-xs-6 {padding: 0}
+section#home_marketing #owl_list_tour .item .info_tour {padding: 3px}
+section#home_marketing #owl_list_tour .item .info_tour .view-img {
+    color: #fff;
+    position: absolute;
+    right: -20px;
+    top: 161px;
+    z-index: 100;
+}
+section#home_marketing #owl_list_tour .item  img {height: 253px; width: 100%}
+section#home_marketing #owl_list_tour  .owl-controls{
+    position: absolute;
+    right: 0;
+    top: 532px;
+}
+section#home_marketing #owl_list_tour .item .item_tour:hover {opacity: 0.9; }
+section#home_marketing #owl_list_tour .item .item_tour:hover .img_tour img {
+    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+
+}
+section#home_hotel {
+    min-height: 500px;
+    background: url('../images/slide3_bg.jpg');
+    background-size: cover;
+    /*padding-bottom: 60px*/
+
+}
+
+
+section#home_hotel .list_country_hotel  .col-xs-3 {  padding-left: 50px;
+                                                     padding-right: 50px;}
+section#home_hotel .list_country_hotel .round{ width: 100%;  border: 3px solid #f9d055; border-radius: 50%; text-align: center;
+                                               display: none;
+                                               padding: 15%;
+}
+section#home_hotel .list_country_hotel .round .home_hotel_country {width: 100%; height: 100%; 
+                                                                   border-radius: 50%; background: #666666;  vertical-align:middle; padding-top: 35%; color: #fff; font-weight: bold;
+                                                                   cursor: pointer;  
+}
+section#home_hotel .list_country_hotel .round .home_hotel_country:hover{ -webkit-transition: background-color 2s ease-out;
+                                                                         -moz-transition: background-color 1s ease-out;
+                                                                         -o-transition: background-color 1s ease-out;
+                                                                         transition: background-color 1s ease-out; background-color: #faa732}
+section#home_hotel #owl_list_hotel .thumbnail {margin: 5px}
+section#home_hotel #owl_list_hotel .thumbnail img {height: 198px;}
+section#home_hotel #owl_list_hotel .thumbnail h2 {font-size: 15px; }
+section#home_hotel #owl_list_hotel .thumbnail h2 a {color: #ff9900}
+section#home_hotel #owl_list_hotel .thumbnail .star i {color:#ff9900}
+section#home_hotel #owl_list_hotel .thumbnail  .tripadvisor img {width: auto; height: 38px}
+section#home_hotel #owl_list_hotel .thumbnail .price {font-size: 1.8em; color: #5caf08; font-weight: bold; line-height: 38px}
+section#home_hotel #owl_list_hotel  .owl-controls{
+    position: absolute;
+    right: 0;
+    top: 397px;
+}
+section#home_golf {
+    min-height: 500px;
+    background: url('../images/bg_golf_02.jpg');
+    background-size: cover;
+    padding-bottom: 20px
+
+
+}
+
+
+section#home_golf .list_country_golf  .col-xs-3 {  padding-left: 50px;
+                                                   padding-right: 50px;}
+section#home_golf .list_country_golf .round{ width: 100%;  border: 3px solid #ccff00; border-radius: 50%; text-align: center;
+                                             display: none;
+                                             padding: 15%;
+}
+section#home_golf .list_country_golf .round .home_golf_country {width: 100%; height: 100%; 
+                                                                border-radius: 50%; background: #006600;  vertical-align:middle; padding-top: 35%; color: #fff; font-weight: bold;
+                                                                cursor: pointer;  
+}
+section#home_golf .list_country_golf .round .home_golf_country:hover{ -webkit-transition: background-color 2s ease-out;
+                                                                      -moz-transition: background-color 0.5s ease-out;
+                                                                      -o-transition: background-color 0.5s ease-out;
+                                                                      transition: background-color 0.5s ease-out; background-color: #faa732}
+
+section#home_list_golf {background: #99bf38}
+section#home_list_golf .list_golf {  margin: 5px 5px 20px;}
+section#home_list_golf .thumbnail img {height: 220px; width: 100%}
+section#home_list_golf .thumbnail  {border-radius: 0px; position: relative; text-align: center; margin: 0 auto}
+section#home_list_golf .thumbnail .book_price {position: absolute; top: 24%; height: 120px; width: 120px; 
+                                               background: #334245; opacity: 0.9; color: #ffff00; border-radius: 50%;  text-align: center;
+                                               left: 37%; padding-top: 10%; font-weight: bold
+}
+section#home_list_golf .thumbnail .book_price hr {margin: 0; border-color: #ffff00;}
+section#home_list_golf .thumbnail .book_price a{color: #ffff00;font-weight: bold}
+section#home_list_golf .info_golf h2{font-size: 18px}
+section#home_list_golf .info_golf h2 a {color: #ccff00}
+section#home_list_golf .info_golf .dis {color: #fff}
+section#home_list_golf .info_golf i {color: #336600;}
+section#home_list_golf .info_golf .phone span{font-size: 24px; color: #336600; margin-left: 10px; margin-right: 10px}
+section#home_list_golf .info_golf .phone {font-size: 16px}
+/*section#home_list_golf .info_golf:hover {color: #000; background: #fff}
+section#home_list_golf .info_golf:hover .dis {color: #ff9900}*/
+
+section#home_list_golf #owl_list_golf  .owl-controls{
+    position: absolute;
+    right: 0;
+    top: 418px;
+}
+
+section#home_gallery {
+    min-height: 500px;
+    background: url('../images/bg_gallery.png');
+    background-size: cover;
+    /*padding-bottom: 60px*/
+
+}
+
+section#home_gallery figure {
+    margin: 0;
+    padding: 0;
+    /*height: 300px;*/
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    /*border: 3px solid #fff;*/
+}
+section#home_gallery figure img {width: 100%; height: 370px}
+section#home_gallery figure:hover figcaption {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    top: 0;
+}
+
+section#home_gallery figcaption {
+    padding-top: 20%;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .5s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+figcaption h3 {
+
+    font-weight: 400;
+    color: #f3b204;
+    /*padding: 10px 20px;*/
+    margin-bottom: 0;
+    position: relative;
+    left: 100%;
+    /*margin-top: 37px;*/
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+}
+
+figcaption p {
+
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    position: relative;
+    left: 100%;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    -webkit-transition-delay: 1.3s;
+    -moz-transition-delay: 1.3s;
+    -o-transition-delay: 1.3s;
+    -ms-transition-delay: 1.3s;
+    transition-delay: 1.3s;
+}
+
+figure:hover h3,figure:hover p {
+    left: 0;
+}
+
+figcaption a {
+    color: #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    color: #4f5856;
+    background: #fff;
+}
+section#home_gallery  .col-xs-6{padding-right: 0}
+section#home_gallery .list_gallery_2 img{ height: 178px; width: 100%}
+section#home_gallery .list_gallery_2 .col-xs-6:nth-child(1){padding-bottom: 15px}
+section#home_gallery .list_gallery_2 .col-xs-6:nth-child(2){padding-bottom: 15px}
+section#home_gallery .list_gallery_2 figcaption h3 {padding-top: 10px   }
+section#home_gallery  .caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    padding-top: 10%;
+}
+section#home_gallery #owl_list_gallery  .owl-controls{
+    position: absolute;
+    right: 0;
+    top: 766px;
+}
+section#home_map {
+    min-height: 500px;
+    background: url('../images/bg_map.png') #ccd0f8;
+    background-size: cover;
+    border-bottom: 5px solid #f9d055;
+    /*padding-bottom: 60px*/
+
+}
+section#home_map .tile_gallery h2 {font-size: 48px; color: #000; }
+section#home_map .tile_gallery h2 a:hover {text-decoration: none; }
+section#home_map .tile_gallery h2  span {color: #0066ff}
+
+footer#footer {background: #1f2d40; min-height: 300px; padding-top: 20px; color: #708997; position: relative}
+footer#footer .list_footer_link h2 {border-bottom: 1px solid #1a71f3; color: #1a71f3}
+footer#footer .list_footer_link .list-group-item {background: none; border: none; border-radius: 0px;    padding: 5px 0;}
+footer#footer .list_footer_link .list-group-item a {color: #708997}
+footer#footer  .img_home{background: #fff}
+footer#footer   .logo_foo{               
+    animation: spin infinite linear 5s; 
+    -webkit-animation: spin infinite linear 5s; 
+    margin: 10px 10px 10px 0px; 
+    //border-right: 1px solid #708997;
+}
+footer#footer .list_footer_address h2{
+    color: #1a71f3;
+}
+footer#footer .list_footer_address  i{ background: #37afff; color: #1e2c3f; padding: 5px 7px; border-radius: 3px;}
+footer#footer .list_footer_address .share p {line-height: 30px}
+footer#footer .list_footer_address .share p a {color: #708997}
+footer#footer .list_footer_address .share p i.fa-google-plus { padding: 5px 9px;}
+footer#footer .list_footer_address .share p i.fa-facebook { padding: 5px 12px;}
+footer#footer .list_footer_address .share p i.fa-twitter{ padding: 5px 10px;}
+footer#footer #back_top {position: absolute; right: 10px; bottom: 10px}
+/*#back_top .fa-arrow-circle-up{color: #fff; background: #fff}*/
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
+
+    }
+    50% {
+        transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+
+    }
+
+    100% {
+        transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+
+    }
+}
+@-webkit-keyframes spin {
+    0% {
+        transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
+
+    }
+    50% {
+        transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+
+    }
+    100% {
+        transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+
+    }
+}
+section#home_marketing #img_title_home_tour img, section#home_golf #img_title_home_golf img, section#home_hotel #img_title_home_hotel img {max-width: 100%}
+
+section#home_marketing .list_country_tour .round, section#home_hotel .list_country_hotel .round,section#home_golf .list_country_golf .round{
+    width: 220px; height: 220px;
+}
+section#home_slider {background: url(../images/04.png); background-size: cover; height: 490px; position: relative}
+section#home_slider_mb  { display: none}
+section#home_marketing #owl_list_tour_mb {display: none !important}
+@media (min-width:769px) and (max-width:1100px){
+    section#home_list_golf #owl_list_golf  .owl-controls{
+        position: absolute;
+        right: 0;
+        top: 550px;
+    }
+    section#home_marketing #owl_list_tour  .owl-controls{
+        position: absolute;
+        right: 0;
+        top: 530px;
+    }
+    section#home_hotel #owl_list_hotel  .owl-controls{
+        position: absolute;
+        right: 0;
+        top: 430px;
+    }
+    section#home_marketing .list_country_tour .round, section#home_hotel .list_country_hotel .round,section#home_golf .list_country_golf .round{
+        width: 155px; height: 155px;
+    }
+
+}
+
+@media (max-width:768px){
+    .container-fluid {padding: 0}
+    section#home_marketing .list_country_tour .round, section#home_hotel .list_country_hotel .round, section#home_golf .list_country_golf .round{
+        width: 155px; height: 155px; padding: 5%; margin: 0 auto; margin-bottom: 5px;
+    }
+    section#home_marketing #owl_list_tour .item .item_tour {padding-left: 15px; padding-right: 15px; position: relative}
+    section#home_marketing #owl_list_tour .item .info_tour .view-img {display: none}
+    section#home_marketing #owl_list_tour .item .info_tour{float: none;position: relative; top: 191px }
+    section#home_marketing #owl_list_tour .item img{max-width: 100%; height: 190px}
+    nav#nav .logo, nav#nav .list_mn, header#header, section#home_slider {display: none}
+
+    section#home_marketing #owl_list_tour .item .img_tour{padding: 0;position: relative; top: -253px}
+    section#home_gallery {display: none}
+    section#home_marketing #owl_list_tour .owl-controls, section#home_hotel #owl_list_hotel .owl-controls, section#home_list_golf #owl_list_golf .owl-controls {bottom: -30px; top:auto}
+    section#home_map input {margin-top: 10px;}
+    header#hd_mobile{display: block !important} 
+    section#home_slider_mb {display: block}
+    section#home_slider_mb img {width: 100%; margin-top: 50px; }
+    section#home_marketing .owl-carousel .item, section#home_marketing .owl-carousel .item:last-child, section#home_marketing .owl-carousel .item:first-child {margin:  0}
+    section#home_marketing .list_country_tour .list_ct_tour{padding: 0}
+    section#home_marketing #owl_list_tour {display: none !important}
+    section#home_marketing #owl_list_tour_mb {display: block !important}
+    section#home_marketing #owl_list_tour_mb .thumbnail {margin: 5px}
+    section#home_marketing #owl_list_tour_mb .item .info_tour h2{font-size: 1em}
+    section#home_marketing #owl_list_tour_mb .item .info_tour .dis {color: #000; font-size: 0.9em}
+    section#home_marketing #owl_list_tour_mb .item ul {padding: 0; margin: 0}
+    section#home_marketing #owl_list_tour_mb .item ul li {list-style: none}
+    section#home_hotel .list_country_hotel .col-xs-3{padding: 0}
+    section#home_golf .list_country_golf .col-xs-3{padding: 0}
+    section#home_marketing .list_country_tour .list_ct_tour{padding: 0}
+
+}
+@media (max-width:360px){
+    section#home_marketing .list_country_tour .round, section#home_hotel .list_country_hotel .round, section#home_golf .list_country_golf .round{
+        width: 70px; height: 70px; padding: 5%; margin: 0 auto; margin-bottom: 5px; 
+    }
+
+    section#home_slider_mb  { display: block}
+    section#home_marketing .list_country_tour .round .home_tour_country {font-size: 0.6em; padding-top: 26%;    }
+
+    section#home_hotel .list_country_hotel .round .home_hotel_country {font-size: 0.6em; padding-top: 26%;    }
+
+    section#home_golf .list_country_golf .round .home_golf_country {font-size: 0.6em; padding-top: 26%;    }
+    section#home_golf {
+        min-height: 254px;
+        background: url('../images/bg_mb_golf_02.png');
+        background-size: cover;     
+    }
+    section#home_map .tile_gallery h2 {font-size: 2em}
+    section#home_map .form_contact_home {display: none}
+    footer#footer .list_footer_link {display: none}
+    footer#footer .list_footer_address .share p {float: left; margin-right: 10px}
+    footer#footer .list_footer_address .share p:last-child {margin-left: 30px}
+    footer#footer .list_footer_address .address i{display: none}
+    footer#footer  .copyright{font-size: 0.5em}
+}
+
+section#home_marketing #owl_list_tour .item .img_tour{padding: 0;}
+nav#nav {background: #fff}
+section {   
+    [id*="home_"] {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    -webkit-background-size: cover  !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+} }

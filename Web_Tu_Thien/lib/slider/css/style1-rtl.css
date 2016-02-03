@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* slider layout */
+.lof-slidecontent .preload{	left:auto;	right:0;	}
+.lof-slidecontent  ul.sliders-wrap-inner li{float:right;}
+.lof-slidecontent  .lof-opacity  li{left:auto;	right:0; }
+.lof-slidecontent  .navigator-content { right:auto; left:10px;}
+.lof-slidecontent  .navigator-wrapper{float:right}
+.lof-slidecontent  ul.navigator-wrap-inner li{ margin-right:0px;float:right;}
+
+/*******************************************************/
+ 
+
+.lof-slidecontent .slider-description{left:auto; right:0;}
+/* item navigator */
+.lof-slidecontent .navigator-content .button-next {
+	float:right;	
+	margin-right:0; margin-left:5px;
+	background:url(../images/arrow-r.png) no-repeat left center;
+}
+.lof-slidecontent .navigator-content .button-previous {
+	float:right;	
+	margin-left:0; margin-right:5px;
+	background:url(../images/arrow-l.png) no-repeat right center;
+}
+
+.lof-slidecontent .button-control {   right:auto;left:10px;}

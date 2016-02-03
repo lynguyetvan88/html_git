@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* slider layout */
+
+.lof-slidecontent .preload{	left:auto;right:0;	}
+.lof-slidecontent  ul.sliders-wrap-inner li{float:right;}
+.lof-slidecontent  .lof-opacity  li{left:auto;right:0; }
+.lof-slidecontent  .navigator-content {   right:auto;left:10px;}
+.lof-slidecontent  .navigator-wrapper{		float:right;}
+.lof-slidecontent  ul.navigator-wrap-inner li{ margin-right:0px;	float:right;}
+
+/*******************************************************/
+.lof-slidecontent .slider-description{left:auto;right:0;}
+
+/* item navigator */
+ 
+.navigator-wrapper{ float: right;}
+
+.lof-slidecontent ul.navigator-wrap-inner li {
+	margin-right:0px;
+	float:right;
+}
+
+.lof-slidecontent   .button-next {
+	right:auto;left:0;
+	background:url(../images/previous.png) no-repeat left center;
+}
+.lof-slidecontent  .button-previous {
+	left:auto;right:0;
+	background:url(../images/next.png) no-repeat right center;
+}
+
+.lof-slidecontent .button-control {  float: right;}
